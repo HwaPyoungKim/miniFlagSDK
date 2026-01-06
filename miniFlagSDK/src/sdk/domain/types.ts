@@ -11,6 +11,8 @@ export type RemoteFlagsPayload = {
     flags: Record<FlagName, FlagConfig>
 }
 
+export type FlagDefaults = Record<FlagName, FlagConfig>;
+
 export type SDKStatus = "idle" | "loading" | "ready" | "error"
 
 export type UserContext = {
